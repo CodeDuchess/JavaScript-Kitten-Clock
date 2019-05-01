@@ -83,7 +83,7 @@ var updateClock = function () {
 
   console.log(messageText); 
   timeEventJS.innerText = messageText;
-  alainaImg.src = image;
+  alaina.src = image;
   
   showCurrentTime();
 };
