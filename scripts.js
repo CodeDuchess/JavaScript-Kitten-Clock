@@ -34,6 +34,23 @@ var showCurrentime = function() {
   
   // put together the string that displays the time
     var clockTime = hours + ':' + minutes + ':' + seconds + " " + meridian + "!";
-}
+    clock.innerText = clockTime;
+};
 
+// getting the clock to increment on its own and change out messages and pictures
+var updateClock = function () {
+  var time = new Date().getHours();
+  var messageText;
+  var image = "alaina.jpg";
+  
+  var timeEventJS = document.getElementById("timeEvent");
+  var kittenImageJS = document.getElementById(kittenImage);
+  
+  if (time == partytime) {
+    image = "teagan_party.jpg";
+    
+    
+  }
+  
+}
 
