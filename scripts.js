@@ -52,7 +52,7 @@ var updateClock = function () {
   }
   else if (time == wakeuptime)
   {
-    image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat1.jpg";
+    image = "tesla_yoga2.jpg";
     messageText = "Wake up!";
   }
   else if (time == lunchtime)
