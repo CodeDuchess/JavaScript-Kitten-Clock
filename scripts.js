@@ -62,22 +62,22 @@ var updateClock = function () {
   }
   else if (time == naptime)
   {
-    image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat3.jpg";
+    image = "alaina.jpg";
     messageText = "Sleep tight!";
   }
   else if (time < noon)
   {
-    image = "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg";
+    image = "tesla_yoga2.jpeg";
     messageText = "Good morning!";
   }
   else if (time >= evening)
   {
-    image = "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cat_sleep.jpg";
+    image = "alaina.jpg";
     messageText = "Good evening!";
   }
   else
   {
-    image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/normalTime.jpg";
+    image = "alaina.jpg";
     messageText = "Good afternoon!";
   }
 
