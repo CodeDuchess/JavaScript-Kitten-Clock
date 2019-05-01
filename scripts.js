@@ -44,7 +44,7 @@ var updateClock = function () {
   var image = "alaina.jpg";
   
   var timeEventJS = document.getElementById("timeEvent");
-  var alainaImageJS = document.getElementById("alainaImage");
+  var alainaImageJS = document.getElementById("alaina");
   
   if (time == partytime) {
     image = "teagan_party.jpg";
@@ -57,7 +57,7 @@ var updateClock = function () {
   }
   else if (time == lunchtime)
   {
-    image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat2.jpg";
+    image = "furbabies.jpg";
     messageText = "Let's have some lunch!";
   }
   else if (time == naptime)
