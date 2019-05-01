@@ -44,7 +44,7 @@ var updateClock = function () {
   var image = "alaina.jpg";
   
   var timeEventJS = document.getElementById("timeEvent");
-  var kittenImageJS = document.getElementById("alaina");
+  var alainaImageJS = document.getElementById("alainaImage");
   
   if (time == partytime) {
     image = "teagan_party.jpg";
