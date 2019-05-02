@@ -10,7 +10,7 @@ var showCurrentTime = function() {
   // display the string on the webpage
   var clock = document.getElementById('clock');
   
-  var CurrentTime = new Date();
+  var currentTime = new Date();
   
   var hours = currentTime.getHours();
   var minutes = currentTime.getMinutes();
