@@ -41,7 +41,7 @@ var showCurrentTime = function() {
 var updateClock = function () {
   var time = new Date().getHours();
   var messageText;
-  var image = "alaina.jpg";
+  var image = "https://alaina.jpg";
   
   var timeEventJS = document.getElementById("timeEvent");
   var alainaImageJS = document.getElementById("alaina");
