@@ -6,7 +6,7 @@ var partytime;
 var evening = 18;
 
 // show the current time on the page
-var showCurrentime = function() {
+var showCurrentTime = function() {
   // display the string on the webpage
   var clock = document.getElementById('clock');
   
