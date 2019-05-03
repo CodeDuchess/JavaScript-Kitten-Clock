@@ -59,8 +59,12 @@ var updateClock = function() {
       messageText = "Let's Nosh!";
      
    }else if (time == naptime) {
-      image = 
-   } 
+      image = "tesla_day_rescued.jpg";
+      messageText = "Sleep tight!";
+     
+   } else if (time < noon) {
+      image = "".jpg;
+   }
    
    }
    
