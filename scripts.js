@@ -54,4 +54,13 @@ var updateClock = function() {
      image = "alaina.jpg";
      messageText = "Wake up!";
     
-  }
+   } else if (time == lunchtime) {
+      image = "tesla_yoga2.jpg";
+      messageText = "Let's Nosh!";
+     
+   }else if (time == naptime) {
+      image = 
+   } 
+   
+   }
+   
