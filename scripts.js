@@ -5,7 +5,7 @@ var naptime = lunchtime + 2;
 var partytime;
 var evening = 18;
 var messageText;
-let timeEventJS;
+timeEventJS;
 
 // show the current time on the page
 var showCurrentTime = function() {
