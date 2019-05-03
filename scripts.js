@@ -37,11 +37,21 @@ var showCurrentTime = function() {
 };
 
 // Getting the clock to increment on its own and change out messages and pictures
-var updateClock = function() 
-{
+var updateClock = function() {
+
   var time = new Date().getHours();
   var messageText;
   var image = "furbabies.jpg";
 
   var timeEventJS = document.getElementById("timeEvent");
   var furBabiesImageJS = document.getElementById('furbabies');
+  
+  if (time== partytime) {
+     image = "teagan_party.jpg";
+     messageText = "Let's party!";
+    
+  } else if (time == wakeuptime) {
+     image = "alaina.jpg";
+     messageText = "Wake up!";
+    
+  }
