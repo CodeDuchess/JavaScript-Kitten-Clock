@@ -71,15 +71,15 @@ var updateClock = function() {
       messageText = "Good evening!";
      
    } else
-     image= "";
+     image= "alaina.jpg";
      messageText = "Good afternoon!";
    
    }
     console.log(messageText); 
-  timeEventJS.innerText = messageText;
-  furbabiesImg.src = image;
+    timeEventJS.innerText = messageText;
+    furbabiesImg.src = image;
   
-  showCurrentTime();
+    showCurrentTime();
 };
 updateClock();
 
