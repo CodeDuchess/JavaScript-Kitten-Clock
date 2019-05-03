@@ -27,7 +27,6 @@ var showCurrentTime = function() {
   } 
   
   //set Minutes
-  
   if (minutes < 10) {
       minutes = "0" + seconds;
   }
