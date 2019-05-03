@@ -37,8 +37,8 @@ var showCurrentTime = function() {
 };
 
 // Getting the clock to increment on its own and change out messages and pictures
-var messageText;
-var timeEventJS;
+let messageText;
+let timeEventJS;
 var updateClock = function() {
   var time = new Date().getHours();
  
