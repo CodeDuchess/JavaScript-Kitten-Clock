@@ -80,7 +80,7 @@ var updateClock = function() {
     furbabiesImg.src = image;
   
     showCurrentTime();
-};
+}
 updateClock();
 
 // Getting the clock to increment once a second
