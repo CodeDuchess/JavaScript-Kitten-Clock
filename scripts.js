@@ -38,12 +38,13 @@ var showCurrentTime = function() {
 
 // Getting the clock to increment on its own and change out messages and pictures
 var messageText;
+var timeEventJS;
 var updateClock = function() {
   var time = new Date().getHours();
  
   var image = "furbabies.jpg";
 
-  var timeEventJS = document.getElementById("timeEvent");
+  timeEventJS = document.getElementById("timeEvent");
   var furBabiesImageJS = document.getElementById('furbabies');
   
   if (time== partytime) {
