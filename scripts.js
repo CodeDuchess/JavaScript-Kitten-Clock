@@ -81,6 +81,7 @@ var updateClock = function() {
   
     showCurrentTime();
 }
+
 updateClock();
 
 // Getting the clock to increment once a second
