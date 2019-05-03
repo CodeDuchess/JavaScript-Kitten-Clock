@@ -80,7 +80,6 @@ var updateClock = function() {
     furbabiesImg.src = image;
   
     showCurrentTime();
-}
 
 updateClock();
 
