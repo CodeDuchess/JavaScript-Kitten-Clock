@@ -77,7 +77,7 @@ var updateClock = function() {
    }
     console.log(messageText); 
     var timeEventJS.innerText = messageText;
-    furbabiesImg.src = image;
+    furbabies.src = image;
   
     showCurrentTime();
 
