@@ -4,6 +4,8 @@ var lunchtime = 12;
 var naptime = lunchtime + 2;
 var partytime;
 var evening = 18;
+var messageText;
+var timeEventJS;
 
 // show the current time on the page
 var showCurrentTime = function() {
@@ -37,8 +39,7 @@ var showCurrentTime = function() {
 };
 
 // Getting the clock to increment on its own and change out messages and pictures
-let messageText;
-let timeEventJS;
+
 var updateClock = function() {
   var time = new Date().getHours();
  
