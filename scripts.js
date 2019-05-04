@@ -84,7 +84,7 @@ var updateClock = function()
   }
   else if (time >= evening)
   {
-    image = "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cat_sleep.jpg";
+    image = "furbabies.jpg";
     messageText = "Good evening!";
   }
   else
