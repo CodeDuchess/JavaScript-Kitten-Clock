@@ -33,7 +33,7 @@ h1, h2, h3, h6 {
   font-family: 'Bungee Shade', cursive;
 }
 
-#lolcatImage {
+#furbabies {
   max-width:30em
 }
 
@@ -63,7 +63,7 @@ blockquote:after { content: '"'; }
   width: 300px;
   font-family: 'Bungee', cursive;
   font-size: 18px;
-  color: #fff;
+  color: #ffff;
   border: none;
   border-radius: 5px;
   padding: 10px 0;
