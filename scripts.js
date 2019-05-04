@@ -59,27 +59,27 @@ var updateClock = function()
   
   if (time == partytime)
   {
-    image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/partyTime.jpg";
+    image = "teagan_party.jpg";
     messageText = "Let's party!";
   }
   else if (time == wakeuptime)
   {
-    image = "tesla_rescue_day.jpg";
+    image = "tesla_day rescued.jpg";
     messageText = "Wake up!";
   }
   else if (time == lunchtime)
   {
-    image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat2.jpg";
+    image = "alaina.jpg";
     messageText = "Let's have some lunch!";
   }
   else if (time == naptime)
   {
-    image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat3.jpg";
+    image = "tesla_yoga.jpg";
     messageText = "Sleep tight!";
   }
   else if (time < noon)
   {
-    image = "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg";
+    image = "tesla_yoga2.jpg";
     messageText = "Good morning!";
   }
   else if (time >= evening)
