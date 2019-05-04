@@ -9,7 +9,7 @@ body {
   text-align: center;
   background-color: #99dd92;
   border-radius: 10px;
-  border-style: inset black 8px;
+  border-style: inset;
 }
 body {
   font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;
@@ -35,9 +35,6 @@ h1, h2, h3, h6 {
   font-family: 'Bungee Shade', cursive;
 }
 
-#furbabies {
-  max-width:30em
-}
 
 blockquote {
   font: 2em/1em 'Open Sans', sans-serif;
