@@ -9,8 +9,10 @@ body {
   text-align: center;
   background-color: #99dd92;
   border-radius: 10px;
+  border-width: 7px;
+  border-color: grey;
   border-style: inset;
-}
+  }
 body {
   font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;
   color: #222;
