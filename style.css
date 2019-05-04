@@ -5,9 +5,11 @@ body {
   width: 80%;
   max-width: 960px;
   margin: 50px auto;
+  padding-top: 10px;
   text-align: center;
   background-color: #99dd92;
-  border-radius: 5px;
+  border-radius: 10px;
+  border-style: inset;
 }
 body {
   font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;
