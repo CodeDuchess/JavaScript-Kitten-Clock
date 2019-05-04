@@ -95,7 +95,7 @@ var updateClock = function()
 
   console.log(messageText); 
   timeEventJS.innerText = messageText;
-  lolcatImage.src = image;
+  furbabies.src = image;
   
   showCurrentTime();
 };
