@@ -1,1 +1,1 @@
-# Kitten-Clock
+Clock using JavaScript, HTML & CSS.
