@@ -55,7 +55,7 @@ var updateClock = function()
   var image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/normalTime.jpg";
 
   var timeEventJS = document.getElementById("timeEvent");
-  var lolcatImageJS = document.getElementById('lolcatImage');
+  var furbabiesImgJS = document.getElementById('furbabies');
   
   if (time == partytime)
   {
