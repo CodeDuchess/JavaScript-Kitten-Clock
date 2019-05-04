@@ -52,7 +52,7 @@ var updateClock = function()
 {
   var time = new Date().getHours();
   var messageText;
-  var image = "alaina.jpg";
+  var image = "furbabies.jpg";
 
   var timeEventJS = document.getElementById("timeEvent");
   var furbabiesImgJS = document.getElementById('furbabies');
